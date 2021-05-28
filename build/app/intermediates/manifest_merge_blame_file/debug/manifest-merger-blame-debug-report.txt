@@ -1,0 +1,119 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.nova_news"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/srinivas/Downloads/Nova-News-master/android/app/src/main/AndroidManifest.xml:8:5-66
+14-->/Users/srinivas/Downloads/Nova-News-master/android/app/src/main/AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:image_picker] /Users/srinivas/Downloads/Nova-News-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+15-->[:image_picker] /Users/srinivas/Downloads/Nova-News-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->[:image_picker] /Users/srinivas/Downloads/Nova-News-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+16-->[:image_picker] /Users/srinivas/Downloads/Nova-News-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->[:android_multiple_identifier] /Users/srinivas/Downloads/Nova-News-master/build/android_multiple_identifier/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-75
+17-->[:android_multiple_identifier] /Users/srinivas/Downloads/Nova-News-master/build/android_multiple_identifier/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-72
+18
+19    <application
+19-->/Users/srinivas/Downloads/Nova-News-master/android/app/src/main/AndroidManifest.xml:9:5-30:19
+20        android:name="io.flutter.app.FlutterApplication"
+20-->/Users/srinivas/Downloads/Nova-News-master/android/app/src/main/AndroidManifest.xml:10:9-57
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.1.0] /Users/srinivas/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/srinivas/Downloads/Nova-News-master/android/app/src/main/AndroidManifest.xml:12:9-43
+24        android:label="Nova News" >
+24-->/Users/srinivas/Downloads/Nova-News-master/android/app/src/main/AndroidManifest.xml:11:9-34
+25        <activity
+25-->/Users/srinivas/Downloads/Nova-News-master/android/app/src/main/AndroidManifest.xml:13:9-24:20
+26            android:name="com.example.nova_news.MainActivity"
+26-->/Users/srinivas/Downloads/Nova-News-master/android/app/src/main/AndroidManifest.xml:14:13-41
+27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+27-->/Users/srinivas/Downloads/Nova-News-master/android/app/src/main/AndroidManifest.xml:17:13-163
+28            android:hardwareAccelerated="true"
+28-->/Users/srinivas/Downloads/Nova-News-master/android/app/src/main/AndroidManifest.xml:18:13-47
+29            android:launchMode="singleTop"
+29-->/Users/srinivas/Downloads/Nova-News-master/android/app/src/main/AndroidManifest.xml:15:13-43
+30            android:theme="@style/LaunchTheme"
+30-->/Users/srinivas/Downloads/Nova-News-master/android/app/src/main/AndroidManifest.xml:16:13-47
+31            android:windowSoftInputMode="adjustResize" >
+31-->/Users/srinivas/Downloads/Nova-News-master/android/app/src/main/AndroidManifest.xml:19:13-55
+32            <intent-filter>
+32-->/Users/srinivas/Downloads/Nova-News-master/android/app/src/main/AndroidManifest.xml:20:13-23:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/srinivas/Downloads/Nova-News-master/android/app/src/main/AndroidManifest.xml:21:17-68
+33-->/Users/srinivas/Downloads/Nova-News-master/android/app/src/main/AndroidManifest.xml:21:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/srinivas/Downloads/Nova-News-master/android/app/src/main/AndroidManifest.xml:22:17-76
+35-->/Users/srinivas/Downloads/Nova-News-master/android/app/src/main/AndroidManifest.xml:22:27-74
+36            </intent-filter>
+37        </activity>
+38        <!--
+39             Don't delete the meta-data below.
+40             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+41        -->
+42        <meta-data
+42-->/Users/srinivas/Downloads/Nova-News-master/android/app/src/main/AndroidManifest.xml:27:9-29:33
+43            android:name="flutterEmbedding"
+43-->/Users/srinivas/Downloads/Nova-News-master/android/app/src/main/AndroidManifest.xml:28:13-44
+44            android:value="2" />
+44-->/Users/srinivas/Downloads/Nova-News-master/android/app/src/main/AndroidManifest.xml:29:13-30
+45
+46        <provider
+46-->[:image_picker] /Users/srinivas/Downloads/Nova-News-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+47            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+47-->[:image_picker] /Users/srinivas/Downloads/Nova-News-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+48            android:authorities="com.example.nova_news.flutter.image_provider"
+48-->[:image_picker] /Users/srinivas/Downloads/Nova-News-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+49            android:exported="false"
+49-->[:image_picker] /Users/srinivas/Downloads/Nova-News-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+50            android:grantUriPermissions="true" >
+50-->[:image_picker] /Users/srinivas/Downloads/Nova-News-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+51            <meta-data
+51-->[:image_picker] /Users/srinivas/Downloads/Nova-News-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+52                android:name="android.support.FILE_PROVIDER_PATHS"
+52-->[:image_picker] /Users/srinivas/Downloads/Nova-News-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+53                android:resource="@xml/flutter_image_picker_file_paths" />
+53-->[:image_picker] /Users/srinivas/Downloads/Nova-News-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+54        </provider>
+55        <provider
+55-->[:flutter_webview_plugin] /Users/srinivas/Downloads/Nova-News-master/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:9:9-18:20
+56            android:name="androidx.core.content.FileProvider"
+56-->[:flutter_webview_plugin] /Users/srinivas/Downloads/Nova-News-master/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-62
+57            android:authorities="com.example.nova_news.fileprovider"
+57-->[:flutter_webview_plugin] /Users/srinivas/Downloads/Nova-News-master/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-64
+58            android:exported="false"
+58-->[:flutter_webview_plugin] /Users/srinivas/Downloads/Nova-News-master/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-37
+59            android:grantUriPermissions="true" >
+59-->[:flutter_webview_plugin] /Users/srinivas/Downloads/Nova-News-master/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-47
+60            <meta-data
+60-->[:image_picker] /Users/srinivas/Downloads/Nova-News-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+61                android:name="android.support.FILE_PROVIDER_PATHS"
+61-->[:image_picker] /Users/srinivas/Downloads/Nova-News-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+62                android:resource="@xml/filepaths" />
+62-->[:image_picker] /Users/srinivas/Downloads/Nova-News-master/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+63        </provider>
+64
+65        <activity
+65-->[:url_launcher] /Users/srinivas/Downloads/Nova-News-master/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+66            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+66-->[:url_launcher] /Users/srinivas/Downloads/Nova-News-master/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+67            android:exported="false"
+67-->[:url_launcher] /Users/srinivas/Downloads/Nova-News-master/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+68            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+68-->[:url_launcher] /Users/srinivas/Downloads/Nova-News-master/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+69    </application>
+70
+71</manifest>
